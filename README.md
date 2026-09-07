@@ -1,8 +1,8 @@
 # IA para Desenvolvedores Delphi e Lazarus na Prática
 
-Domine o desenvolvimento Delphi e Lazarus com o uso da IA. 
+ Descubra como utilizar as principais ferramentas e conceitos de Inteligência Artificial para criar, analisar, modernizar e evoluir seus projetos. Tudo de forma prática, direta e com exemplos reais!
 
-Acesse a página: 
+Conheça o curso: 
 
 https://code4delphi.github.io/ia-devs-delphi-lazarus/
 
