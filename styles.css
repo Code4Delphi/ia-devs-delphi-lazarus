@@ -172,7 +172,7 @@ h3 { color: var(--title); }
 .faq-grid .section-heading { margin-bottom: 0; }
 .faq-list { display: grid; gap: 14px; margin: 0; padding: 0; list-style: none; }
 .faq-list li { display: grid; grid-template-columns: 28px 1fr; align-items: start; gap: 16px; padding: 22px 24px; color: var(--title); background: var(--surface); border: 1px solid var(--border); border-radius: 6px; font-size: 16px; }
-.faq-list li::before { content: '✓'; display: grid; place-items: center; width: 28px; height: 28px; color: var(--accent); background: rgba(141,40,39,.13); border: 1px solid rgba(214,51,92,.35); border-radius: 50%; font-size: 14px; font-weight: 800; }
+.faq-list li::before { content: '✓'; display: grid; place-items: center; width: 28px; height: 28px; color: #25d366; background: rgba(37,211,102,.13); border: 1px solid rgba(37,211,102,.35); border-radius: 50%; font-size: 14px; font-weight: 800; }
 
 .differentiators-grid { display: grid; grid-template-columns: .8fr 1.2fr; gap: clamp(60px, 9vw, 120px); align-items: start; }
 .differentiator-list { border-top: 1px solid var(--border); }
