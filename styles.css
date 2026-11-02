@@ -114,25 +114,6 @@ h3 { color: var(--title); }
 .bridge-callout p { margin: 0; color: #d3c5b2; }
 .prompt-mark { color: var(--accent); font: 500 26px 'DM Mono', monospace; }
 
-.proposal-grid { display: grid; grid-template-columns: .95fr 1.05fr; align-items: center; gap: clamp(55px, 8vw, 110px); }
-.check-list { display: grid; gap: 20px; margin: 0 0 35px; padding: 0; list-style: none; }
-.check-list li { position: relative; display: grid; padding-left: 34px; }
-.check-list li::before { content: '✓'; position: absolute; top: 2px; left: 0; display: grid; place-items: center; width: 21px; height: 21px; color: var(--accent); border: 1px solid var(--accent); border-radius: 50%; font-size: 11px; }
-.check-list strong { color: var(--title); font-size: 15px; }
-.check-list span { color: var(--muted); font-size: 13px; }
-.workflow-card { background: #181919; border: 1px solid var(--border); border-radius: 9px; box-shadow: 24px 25px 0 rgba(17,17,17,.23); }
-.workflow-head { display: flex; justify-content: space-between; padding: 18px 24px; border-bottom: 1px solid var(--border); font: 500 10px 'DM Mono', monospace; letter-spacing: .13em; }
-.workflow-head span { color: var(--accent); }
-.workflow-head small { color: #7d7367; }
-.workflow-list { margin: 0; padding: 15px 28px; list-style: none; }
-.workflow-list li { display: grid; grid-template-columns: 42px 1fr; align-items: center; gap: 15px; padding: 21px 0; border-bottom: 1px solid #353636; }
-.workflow-list li:last-child { border-bottom: 0; }
-.workflow-list li > span { color: var(--accent); font: 500 11px 'DM Mono', monospace; }
-.workflow-list li div { display: grid; }
-.workflow-list strong { color: var(--title); font-size: 16px; }
-.workflow-list small { color: var(--muted); font-size: 12px; }
-.workflow-result { display: flex; align-items: center; gap: 12px; margin: 0 20px 20px; padding: 14px 18px; background: rgba(214,51,92,.08); border: 1px solid rgba(214,51,92,.22); border-radius: 5px; color: #d8c9b5; font-size: 12px; }
-
 .benefit-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1px; background: var(--border); border: 1px solid var(--border); }
 .benefit-card { min-height: 255px; padding: 34px 30px; background: var(--surface); transition: background .2s ease; }
 .benefit-card:hover { background: var(--surface-soft); }
@@ -230,12 +211,11 @@ h3 { color: var(--title); }
   .hero { padding-top: 135px; }
   .hero-grid { grid-template-columns: 1fr; }
   .code-window { width: min(620px, 100%); transform: none; }
-  .heading-split, .proposal-grid, .practice-grid, .differentiators-grid, .instructor-grid { grid-template-columns: 1fr; gap: 50px; }
+  .heading-split, .practice-grid, .differentiators-grid, .instructor-grid { grid-template-columns: 1fr; gap: 50px; }
   .problem-grid, .benefit-grid { grid-template-columns: 1fr 1fr; }
   .problem-card + .problem-card { border-left: 0; }
   .problem-card:nth-child(even) { border-left: 1px solid var(--border); }
   .problem-card:last-child { border-top: 1px solid var(--border); }
-  .workflow-card { width: min(680px, 100%); }
   .instructor-visual { width: min(460px, calc(100% - 25px)); }
 }
 @media (max-width: 700px) {
